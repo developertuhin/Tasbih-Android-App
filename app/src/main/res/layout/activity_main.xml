@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    android:padding="25dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+
+        >
+        // ------------------------Grid layout 1-------------------------
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#130f40"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:backgroundTint="#218c74"
+            >
+            <TextView
+                android:id="@+id/tvDisplay_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#f9ca24"
+                android:textSize="35sp"
+
+                />
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="সুবহানাল্লাহ"
+                android:paddingBottom="20dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+
+                />
+
+        </LinearLayout>
+
+        // ---------------------------Grid layout 2--------------------
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#130f40"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:backgroundTint="#227093"
+            android:layout_marginHorizontal="8dp"
+
+
+            >
+
+            <TextView
+                android:id="@+id/tvDisplay_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="35sp"
+
+                />
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="আলহামদুলিল্লাহ"
+                android:textColor="#f9ca24"
+                android:textSize="12sp"
+
+                />
+
+        </LinearLayout>
+
+        // ----------------------Grid layout 3-------------------
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#130f40"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:backgroundTint="#b33939"
+
+
+            >
+
+            <TextView
+                android:id="@+id/tvDisplay_third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#f9ca24"
+                android:textSize="35sp"
+
+                />
+
+            <TextView
+                android:id="@+id/tvDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="আল্লাহু-আকবার"
+                android:textColor="#fff"
+                android:textSize="12sp"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সুবহানাল্লাহ"
+        android:textSize="30sp"
+        android:backgroundTint="#218c74"
+
+        />
+
+    <Button
+        android:id="@+id/buttonAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আলহামদুলিল্লাহ"
+        android:textSize="30sp"
+        android:backgroundTint="#227093"
+
+        />
+
+    <Button
+        android:id="@+id/buttonAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আল্লাহু-আকবার"
+        android:textSize="30sp"
+        android:backgroundTint="#b33939"
+
+        />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="30sp"
+        android:backgroundTint="#eb2f06"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
